@@ -6,8 +6,8 @@ using namespace std;
 
 int main()
 {
-	Complex<double> num1(1, 5)
-  Complex<double> num2(3, 4)
+	Complex<double> num1(1, 5);
+	Complex<double> num2(3, 4);
 	cout << num1 * num2;
 	return 0;
 }
